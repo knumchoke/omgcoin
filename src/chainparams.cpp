@@ -48,7 +48,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1420441832;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 474859;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -63,7 +63,7 @@ public:
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0xeccf7e22285278b2eeda6c3e18263cc459409d94c44cf8a8594df31cc7b819b3"));
+        assert(hashGenesisBlock == uint256("0x000007cb18071a11816e038dcb04864e13a97c043863b1ef5854289209ec6620"));
         assert(genesis.hashMerkleRoot == uint256("0x2c6cebb4b9b218d6f3696d1aaeecf5de745b8a5f3f3c18913fd28760b82b2287"));
 
         vSeeds.push_back(CDNSSeedData("216.104.47.190", "216.104.47.190"));
